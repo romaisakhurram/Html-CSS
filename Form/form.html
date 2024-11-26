@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    tr   {
+        background: rgba(133, 228, 90, 0.884);
+        font-size: 12pt;
+        font-family: Century Gothic
+    }
+</style>
+<body>
+    <center>
+     <img src="giaic logo.jpeg" width="200" height="200">
+     <h1 style="font-size: 25pt; font-family: Century Gothic;">Registration Form</h1>
+     <h2 style="font-size: 15pt; font-family: Century Gothic;";>2 Months Courses</h2>
+        <form>
+            <table border="0" align="center" width="500" cellspacing="5" cellspadding="10" colspan="2">
+                <tr>
+                  <th colspan="2" align="left" style="background: rgb(12, 0, 114); color: aliceblue; font-size: 20pt; font-family: Century Gothic;">Personal Information</th>
+                </tr>
+                <tr>
+                 <td><b>Full Name</b></td>
+                 <td><input type="text"></td>
+                </tr>
+                <tr>
+                 <td><b>Father Name</b></td>
+                 <td><input type="text"></td>
+                </tr>
+                <tr>
+                 <td><b>Date Of Birth</b></td>
+                 <td><input type="date"></td>
+                </tr>
+                <tr>
+                 <td><b>Gender</b></td>
+                 <td><input type="radio" name="g">Male<input type="radio" name="g">Female</td>
+                </tr>
+                <tr>
+                 <td><b>Age</b></td>
+                 <td><input type="number" max="20" min="8"></td>
+                </tr>
+                <tr>
+                    <td><b>Address</b></td>
+                    <td><textarea rows="3" col="2" name="a" id="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><b>CNIC Number</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><b>E-mail</b></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><b>Country</b></td>
+                    <td>
+                        <select>
+                            <option>Select Country</option>
+                            <option>Pakistan</option>
+                            <option>Australia</option>
+                            <option>London</option>
+                            <option>Dubai</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Zip Code</b></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><b>City</b></td>
+                    <td>
+                        <select>
+                            <option>Select City</option>
+                            <option>Karachi</option>
+                            <option>Lahore</option>
+                            <option>Quetta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" align="left" style="background: rgb(12, 0, 114); color: aliceblue; font-size: 20pt; font-family: Century Gothic;">Courses Selection</th>
+                </tr>
+                <tr>
+                    <td><b>Qualification</b></td>
+                    <td>
+                        <select>
+                            <option>Select Qualification</option>
+                            <option>Matric</option>
+                            <option>Intermediate</option>
+                            <option>Bachelor Degree</option>
+                            <option>Master Degree</option>
+                        </select>    
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Courses</b></td>
+                    <td>
+                        <input type="checkbox" name="c">Html <br>
+                        <input type="checkbox" name="c">Graphic Designing <br>
+                        <input type="checkbox" name="c">Digital Marketing <br>
+                        <input type="checkbox" name="c">Phyton <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Comment</b></td>
+                    <td><textarea rows="3" col="2">Enter the comment</textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><input type="reset"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
