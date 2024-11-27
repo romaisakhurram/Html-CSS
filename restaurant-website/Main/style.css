@@ -1,0 +1,234 @@
+body {
+    font-family: Arial sans-serif;
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 1305px;
+}
+
+header {
+    background-color: #ff6347 ;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1305px;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+     color: white;
+     text-decoration: none;
+}
+
+header :hover{
+    color: rgb(124, 123, 122);
+}
+
+.hero {
+    background-image: url(../img/fast\ food\ logo.jpeg);
+    background-size: cover;
+    color: white;
+    width: 100%;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    display: inline-block;
+    background-color: rgb(255, 99, 71);
+}
+
+.hero button {
+    font-size: 1.2rem;
+    background-color: rgb(255, 99, 71);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.menu h2{
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.menu .menu-items {
+    display:inline-block;
+    width: 30%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+.menu .menu-items img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu .menu-items h3 {
+    margin: 15px 0 10px;
+}
+
+.menu .menu-items p {
+    margin: 0 0 10px;
+}
+
+.menu .menu-items sp {
+    font-size: 1.2rem;
+    color: rgb(255, 99, 71);
+}
+
+.LoadButton button {
+    background-color: #ff6347;
+    padding: 10px;
+    margin-left: 45%;
+    border: none;
+    font-size: 1rem;
+}
+
+button a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 1329px;
+    margin-top: 20px;
+}
+
+.footerContainer {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 50px;
+    gap: 20%;
+    margin-left: 5%;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.firstRow{
+  display: flex;
+  list-style: none;
+  gap: 5%;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body{
+        width: auto;
+    }
+    
+    header{
+        width: auto;
+    }
+
+    .hero{
+        font-size: 20px;
+        width: auto;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .menu .menu-items {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        width: auto;
+    }
+
+   .footerContainer{
+       gap: 10px;
+       margin: 2%;
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 400px) {
+    body{
+        width: 97%;
+    }
+    
+    header{
+        width: 91%;
+    }
+
+    .hero{
+        font-size: 15px;
+        width: 91%;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .menu .menu-items {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        width: 97%;
+    }
+
+    ul , p{
+      font-size: 9px;
+    }
+
+    .logo img{
+       width: 40px;
+       height: 40px;
+       margin: 0%;
+    }
+
+    .firstRow img{
+        width: 20px;
+        height: 20px;
+    }
+
+   .footerContainer{
+       gap: 5px;
+       margin: 0%;
+    }
+}
