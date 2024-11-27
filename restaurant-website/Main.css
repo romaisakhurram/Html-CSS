@@ -42,7 +42,7 @@ header :hover{
 }
 
 .hero {
-    background-image: url(../img/fast\ food\ logo.jpeg);
+    background-image: url(./img/fast\ food\ logo.jpeg);
     background-size: cover;
     color: white;
     width: 100%;
