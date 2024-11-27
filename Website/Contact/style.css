@@ -36,6 +36,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header :hover{
+    color: rgb(124, 123, 122);
+}
+
 .Contact h1{
     font-family: Arial, sans-serif;
     font-size: 64px;

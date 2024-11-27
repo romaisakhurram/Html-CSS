@@ -37,8 +37,12 @@ header nav ul li a {
      text-decoration: none;
 }
 
+header :hover{
+    color: rgb(124, 123, 122);
+}
+
 .hero {
-    background-image: url(img/fast\ food\ logo.jpeg);
+    background-image: url(../img/fast\ food\ logo.jpeg);
     background-size: cover;
     color: white;
     width: 100%;

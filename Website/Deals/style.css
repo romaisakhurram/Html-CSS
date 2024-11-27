@@ -36,6 +36,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header :hover{
+    color: rgb(124, 123, 122);
+}
+
 .Deals h1{
     font-size: 64px;
     text-align:center ;

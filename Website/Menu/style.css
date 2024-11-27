@@ -25,7 +25,6 @@ header nav ul {
    margin: 0;
    display: flex;
    padding: 0;
-
 }
 
 header nav ul li {
@@ -35,6 +34,10 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+header :hover{
+    color: rgb(124, 123, 122);
 }
 
 .Menu {
